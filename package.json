@@ -1,0 +1,62 @@
+{
+  "name": "react-tsx-starter",
+  "version": "0.0.2",
+  "description": "Universal/Isomorphic React TypeScript Starter Project",
+  "main": "app.js",
+  "author": {
+    "name": "Todd Lucas",
+    "email": "hi@toddlucas.net"
+  },
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddlucas/react-tsx-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toddlucas/react-tsx-starter/issues"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node ./dist/server.js",
+    "dev:linux": "NODE_ENV=development node ./dist/server.js",
+    "dev:windows": "SET NODE_ENV=development&& node dist\\server.js",
+    "build": "gulp"
+  },
+  "browserify-shim": {},
+  "dependencies": {
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/errorhandler": "0.0.32",
+    "@types/express": "^4.16.1",
+    "@types/node": "^12.0.2",
+    "@types/react": "^16.8.18",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router": "^5.0.0",
+    "@types/react-router-dom": "^4.3.3",
+    "browser-sync": "^2.26.5",
+    "browserify": "^16.2.3",
+    "browserify-shim": "^3.8.12",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "rimraf": "^2.6.3",
+    "stream-browserify": "^2.0.2",
+    "typescript": "^3.4.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^2.0.0",
+    "yargs": "^13.2.4"
+  }
+}
